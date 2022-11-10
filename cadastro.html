@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="cadastro.css" rel="stylesheet">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div class="container">
+        
+        <div class="col-img">
+            <img src="boneco.png">
+        </div>
+
+        <div class="form">
+
+            <form>
+                <div class="form-header">
+                        <div class="title">
+                            <h2>Cadastre-se</h2>
+                        </div>
+                        <div class="login-button">
+                            <button><a href="mainpage.html">ENTRAR</a></button>
+                        </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group col-md-5">
+                        <label for="inputfristname" class="form-label">Nome do responsável:</label>
+                        <input id="inputfristname" type="text" class="form-control" placeholder="Digite seu nome:" required>
+                    </div>
+
+                    <div class="form-group col-md-5">
+                        <label for="inputlastname" class="form-label">Sobrenome:</label>
+                        <input id="inputlastname" type="text" class="form-control" placeholder="Digite seu sobrenome:" required>
+                    </div>
+
+                    <div class="form-group col-md-12">
+                        <label for="number" class="form-label">Celular:</label>
+                        <input type="tel" class="form-control" id="number" placeholder="(xx) xxxxx-xxxx" required>
+                    </div>
+
+                    <div class="form-group col-md-5">
+                        <label for="exampleInputEmail1" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="exemplo@gmail.com" required>
+                    </div>
+
+                    <div class="form-group col-md-5">
+                        <label for="inputPassword5" class="form-label">Senha:</label>
+                        <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Digite sua senha:" required>
+                        <div id="passwordHelpBlock" class="form-text">Deve ter de 8 a 20 caracteres.</div>
+                    </div>
+
+                    <div class="form-group col-md-5">
+                        <label for="inputfristname" class="form-label">Nome do Aluno:</label>
+                        <input id="inputfristname" type="text" class="form-control" placeholder="Digite seu nome:" required>
+                    </div>
+
+                    <div class="form-group col-md-5">
+                        <label for="inputlastname" class="form-label">Sobrenome:</label>
+                        <input id="inputlastname" type="text" class="form-control" placeholder="Digite seu sobrenome:" required>
+                    </div>
+
+                        <div class="gender-inputs-aluno">
+
+                            <div class="gender-title">
+                                <h6>Gênero</h6>
+                            </div>
+            
+                            <div class="gender-group">
+                                <div class="gender-input">
+                                    <input type="radio" id="feminine" name="gender">
+                                    <label for="feminine">Feminino</label>
+                                </div>
+            
+                                <div class="gender-input">
+                                    <input type="radio" id="masculine" name="gender">
+                                    <label for="masculine">Masculino</label>
+                                </div>
+            
+                                <div class="gender-input">
+                                    <input type="radio" id="non-binary" name="gender">
+                                    <label for="non-binary">Não Binário</label>
+                                </div>
+            
+                                <div class="gender-input">
+                                    <input type="radio" id="transgender" name="gender">
+                                    <label for="transgender">Transgênero</label>
+                                </div>
+            
+                                <div class="gender-input">
+                                    <input type="radio" id="others" name="gender">
+                                    <label for="others">Outros</label>
+                                </div>
+                            </div>
+            
+                        </div>
+
+                    <div class="form-group col-md-5">
+                        <label for="school" class="form-label">Escola:</label>
+                        <input type="text" class="form-control" id="school" placeholder="Digite o nome da escola:" required>
+                    </div>
+
+                    <div class="form-group col-md-5">
+                        <label for="serie" class="form-label">Turma:</label>
+                        <input type="number-text" class="form-control" id="serie" placeholder="Digite sua turma:" required>
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+        
+
+    </div>
+
+</body>
+</html>
