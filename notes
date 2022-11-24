@@ -1,3 +1,4 @@
+https://www.w3schools.com/
 <html>
 <body>
 
@@ -30,10 +31,22 @@ break;
 
 $p = 0;
 while($p < 100){
-echo $p "<br>";
+echo $p. "<br>";
 $p++;
 }
 
+$p =0;
+do{
+echo $p;
+$p++
+}while ($p < 10);
+
+echo "<br>";
+
+for($n = 0; $n < 20; $n++){
+echo $n
+}
+echo $_GET["filename"];
 ?>
 
 </body>
