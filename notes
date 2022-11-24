@@ -1,0 +1,40 @@
+<html>
+<body>
+
+<?php
+$nome = roberto;
+$idade = 456;
+$peso = 345678.45678;
+$soma= $peso == $idade;
+echo "My first PHP script!";
+
+if ($peso > 100){
+echo "BALEIA";
+} else {
+echo "GRAVETO";
+}
+
+switch($idade){
+case 1:
+echo "";
+break;
+
+case 2:
+echo "";
+break;
+
+case 3:
+echo "";
+break;
+}
+
+$p = 0;
+while($p < 100){
+echo $p "<br>";
+$p++;
+}
+
+?>
+
+</body>
+</html>
